@@ -5,6 +5,79 @@
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    width: 95vw;
+    margin: 0 auto;
+    background: url(img/background.jpg) no-repeat center center/cover;
+    font-family: "Montserrat", sans-serif;;
+    color: #222;
+  }
+
+  #container {
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 12px;
+    border: 1px solid rgba(20, 20, 20, 0.3);
+  }
+
+  header {
+    margin: 1vh;
+    padding: 1vh;
+    text-align: center;
+    font-size: 5vh;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 12px;
+    border: 1px solid rgba(20, 20, 20, 0.3);
+    color: #222;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+  }
+
+  .contenedor {
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 12px;
+    border: 1px solid rgba(20, 20, 20, 0.3);
+    margin: 1vh;
+    padding: 1.5vh;
+  }
+
+
+  h2 {
+    text-align: center;  
+    color: #333;
+  }
+
+  p {
+    text-indent: 10px;
+  }
+
+  ul {
+    list-style-position: inside;
+    list-style-type: circle;
+  }
+
+  li {
+    font-weight: 600;
+  }
+
+  footer {
+    margin: 1vh;
+    padding: 1vh;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 12px;
+    border: 1px solid rgba(20, 20, 20, 0.3);
+  }
+
+
+}
 
 @media screen and (min-width: 768px) {
   body {
@@ -12,7 +85,6 @@
     margin: 0 auto;
     background: url(img/background.jpg) no-repeat center center/cover;
     font-family: "Montserrat", sans-serif;;
-    max-width: 850px;
     color: #222;
   }
 
@@ -22,6 +94,7 @@
     background-color: rgba(255, 255, 255, 0.50);
     border-radius: 12px;
     border: 1px solid rgba(20, 20, 20, 0.3);
+    max-width: 850px;
   }
 
   header {
